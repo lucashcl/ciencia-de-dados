@@ -1,0 +1,16 @@
+# uv: Virtual environment
+.venv/
+
+# uv: Project-specific ignore (optional, for tools)
+.uv/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Environment variables
+.env
