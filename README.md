@@ -4,6 +4,10 @@ Repositório base do projeto da disciplina de Ciência de Dados da FACAPE.
 
 Este projeto está no formato de esqueleto inicial e será usado para organizar a coleta, análise e visualização dos dados ao longo da disciplina.
 
+O dataset utilizado neste projeto foi:
+
+- https://www.kaggle.com/datasets/wajahat1064/healthcare-appointment-dataset
+
 ## Requisitos
 
 - Python 3.14 ou superior
@@ -24,6 +28,16 @@ uv sync
 ```
 
 Aviso: depois do `uv sync`, certifique-se de usar o interpretador Python do ambiente virtual gerado por esse comando, e não o Python global do sistema.
+
+Se ocorrer algum erro ao executar os notebooks, execute os comandos abaixo:
+
+```bash
+uv venv --seed
+uv pip install pydantic
+uv pip install jupyterlab
+```
+
+Depois, reinicie o VS Code e tente executar as células novamente.
 
 Depois, execute o projeto ou os notebooks conforme a etapa da disciplina.
 
